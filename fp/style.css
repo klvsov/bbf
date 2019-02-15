@@ -1,0 +1,56 @@
+body{
+    width:100%
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.col{
+    display: inline-block;
+    width: 45%;
+    margin:0 auto;
+}
+
+#big img{
+    width: 80%
+}
+
+.small img{
+    width: 15%;
+}
+
+p span{
+    font-weight: bold;
+}
+
+.row{
+    background: darkgrey;
+}
+
+
+.row:nth-child(2n+1){
+    background: red;
+}
+
+.prop, .value{
+    display: inline-block;
+    line-height: 2em
+}
+.prop{
+    width: 20%;
+    border-right: 10px solid black; 
+    font-weight: bold;
+}
+.test{
+    width: 50px;
+    height: 50px;
+    background: red;
+    margin-top: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: rgb(55, 192, 21)
+}
