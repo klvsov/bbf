@@ -41,7 +41,7 @@ header nav ul li:hover{
 .background{
     background: url('images/layer-11.png');
     background-size: cover;
-    height: 80vh;
+    padding: 20%;
     display: flex;
     text-align: center;
     align-items: center;
@@ -55,4 +55,31 @@ header nav ul li:hover{
     padding: 10px 40px;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.services .service-item{
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.story{
+    text-align: center;
+    margin: 60px 5px;
+}
+
+.story i{
+    position: relative;
+    bottom: 230px;
+    font-size: 5rem;
+    color: #fff;
+}
+
