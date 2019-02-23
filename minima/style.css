@@ -233,7 +233,7 @@ footer .footer-item ul li{
 .back{
     position: fixed;
     bottom: 20px; 
-    right: 20px;
+    left: 20px;
     font-size: 4rem; 
 }
 
@@ -282,8 +282,19 @@ footer .footer-item ul li{
         top: 30px;
         right: 0;
         background-color: rgb(94, 192, 171);
-        padding: 5px 10px;
-        margin: 2px;
+        padding: 5px 0;
+    }
+
+    .menuToggle:hover{
+        border-bottom: 0;
+    }
+
+    .menuToggle li:hover{
+        background-color: rgb(8, 80, 64);
+    }
+
+    .menuToggle li{
+        border-bottom: 1px solid #000;
     }
 
     .menu{
