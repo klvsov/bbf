@@ -1,0 +1,16 @@
+.logo{
+    flex-grow: 1;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.full-header{
+    min-width: 100%;
+    background: #f56262;
+}
+
+.navbar-toggler{
+    margin: 0 auto!important;
+}
