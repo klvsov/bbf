@@ -7,6 +7,10 @@ body{
     font-family: Bariol Regular;
 }
 
+p{
+    font-size: 1.3rem;
+}
+
 .nav-link{
     color: #fff!important;
     font-weight: bold;
@@ -36,6 +40,10 @@ body{
 }
 h1, h2, p{
     text-align: center;
+}
+
+h1, h2{
+    color: #fff;
 }
 
 .pt{
@@ -83,6 +91,10 @@ h1, h2, p{
     margin: 5px;
     padding: 10px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .expert-item h5{
@@ -96,7 +108,9 @@ h1, h2, p{
 
 .expert-item>img{
     border: 6px solid #6cc372;
-    border-radius: 50%
+    border-radius: 50%;
+    width: 159px;
+    height: 159px;
 }
 
 .expert-item button{
@@ -118,3 +132,41 @@ h1, h2, p{
     position: absolute;
     left: 10px;
 }
+
+.genuine-item{
+    text-align: center;
+}
+
+.full-w-4{
+    background: #f0f0f0;
+}
+
+.full-w-4 h2{
+    color: #616161;
+}
+
+.full-w-4 img+p{
+    padding-top: 10px; 
+}
+
+.full-w-4 h2+p{
+    color: #61af66;
+}
+
+.tarifs{
+    justify-content: center;
+}
+
+.full-w-4 .tarif-item{
+    margin: 10px;
+    background: #fff;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px -11px 31px 3px rgba(0,0,0,0.5)
+}
+
+.full-w-4 .row, .tarif-item{
+    margin-bottom: 0!important;
+}
+
