@@ -1,4 +1,14 @@
-.logo{
+.nav-link{
+    color: #fff!important;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.nav-link:hover{
+    background: #000;
+    border-radius: 5px;
+}
+
+.navbar-brand{
     flex-grow: 1;
 }
 
@@ -6,11 +16,42 @@
     flex-grow: 0;
 }
 
-.full-header{
+.header-1{
     min-width: 100%;
-    background: #f56262;
+    background: #f56262
 }
 
-.navbar-toggler{
-    margin: 0 auto!important;
+.d-block{
+    width: 90%!important;
+    margin: 0 auto;
 }
+h1, p{
+    text-align: center;
+}
+
+.pt{
+    padding: 50px 0; 
+}
+
+.header-2{
+    background: #eb4f4e;
+}
+
+.full-w-1{
+    background: #232324;
+    color: #fff;
+}
+
+.full-w-1 p{
+    color: #783535;
+    font-size: 1.3rem;
+}
+
+.creative-item{
+    text-align: center!important;
+}
+
+.t-center{
+    text-align: center;
+}
+
