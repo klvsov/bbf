@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 @font-face{
     font-family: 'Bariol Regular';
     src: url('fonts/Bariol_Regular.otf');
@@ -132,6 +134,7 @@ h1, h2{
     position: absolute;
     left: 10px;
 }
+<<<<<<< HEAD
 
 .genuine-item{
     text-align: center;
@@ -170,3 +173,6 @@ h1, h2{
     margin-bottom: 0!important;
 }
 
+=======
+>>>>>>> b36279a22239f2e195c613ff5544c18a621e2c27
+>>>>>>> 360f0ecdeaa1bda81757d0d62c110607cc837f64
