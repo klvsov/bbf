@@ -1,0 +1,123 @@
+<<<<<<< HEAD
+=======
+@font-face{
+    font-family: 'Bariol Regular';
+    src: url('fonts/Bariol_Regular.otf');
+}
+
+body{
+    font-family: Bariol Regular;
+}
+
+.nav-link{
+    color: #fff!important;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.nav-link:hover{
+    background: #000;
+    border-radius: 5px;
+}
+
+.navbar-brand{
+    flex-grow: 1;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.header-1{
+    min-width: 100%;
+    background: #f56262
+}
+
+.d-block{
+    width: 90%!important;
+    margin: 0 auto;
+}
+h1, h2, p{
+    text-align: center;
+}
+
+.pt{
+    padding: 50px 0; 
+}
+
+.header-2{
+    background: #eb4f4e;
+}
+
+.full-w-1{
+    background: #232324;
+    color: #fff;
+}
+
+.full-w-1 p{
+    color: #783535;
+    font-size: 1.3rem;
+}
+
+.creative-item{
+    text-align: center!important;
+    margin: 0 auto;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.full-w-3{
+    background: #6cc372;
+}
+
+.full-w-3 h2{
+    color: #fff;
+}
+
+.experts{
+    justify-content: center;
+}
+
+.expert-item{
+    text-align: center;
+    background: #fff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.expert-item h5{
+    font-size: 1.1rem;
+    color: #6cc372
+}
+
+.expert-item p{
+    color: #e13d2f
+}
+
+.expert-item>img{
+    border: 6px solid #6cc372;
+    border-radius: 50%
+}
+
+.expert-item button{
+    min-width: 100%;
+    padding: 5px;
+    background: #6cc372;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 1.2rem;
+    letter-spacing: 2px; 
+}
+
+.expert-item button img{
+    position: absolute;
+    left: 10px;
+}
+>>>>>>> b36279a22239f2e195c613ff5544c18a621e2c27
