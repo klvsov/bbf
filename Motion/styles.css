@@ -42,6 +42,10 @@ h1, h2, p{
     text-align: center;
 }
 
+h1, h2{
+    color: #fff;
+}
+
 .pt{
     padding: 50px 0; 
 }
@@ -88,8 +92,13 @@ h1, h2, p{
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     align-items: center;
     justify-content: space-between;
+=======
+    justify-content: space-between;
+    align-items: center;
+>>>>>>> c7226bf60323a2047f80ca34b998c6c3d32fb686
 }
 
 .expert-item h5{
@@ -126,4 +135,50 @@ h1, h2, p{
 .expert-item button img{
     position: absolute;
     left: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+<<<<<<< HEAD
+
+.genuine-item{
+    text-align: center;
+}
+
+.full-w-4{
+    background: #f0f0f0;
+}
+
+.full-w-4 h2{
+    color: #616161;
+}
+
+.full-w-4 img+p{
+    padding-top: 10px; 
+}
+
+.full-w-4 h2+p{
+    color: #61af66;
+}
+
+.tarifs{
+    justify-content: center;
+}
+
+.full-w-4 .tarif-item{
+    margin: 10px;
+    background: #fff;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px -11px 31px 3px rgba(0,0,0,0.5)
+}
+
+.full-w-4 .row, .tarif-item{
+    margin-bottom: 0!important;
+}
+
+=======
+>>>>>>> b36279a22239f2e195c613ff5544c18a621e2c27
+>>>>>>> 360f0ecdeaa1bda81757d0d62c110607cc837f64
+>>>>>>> c7226bf60323a2047f80ca34b998c6c3d32fb686
