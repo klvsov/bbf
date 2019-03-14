@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 @font-face{
     font-family: 'Bariol Regular';
     src: url('fonts/Bariol_Regular.otf');
@@ -134,7 +132,6 @@ h1, h2{
     position: absolute;
     left: 10px;
 }
-<<<<<<< HEAD
 
 .genuine-item{
     text-align: center;
@@ -166,13 +163,87 @@ h1, h2{
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-shadow: 1px -11px 31px 3px rgba(0,0,0,0.5)
 }
 
 .full-w-4 .row, .tarif-item{
     margin-bottom: 0!important;
 }
 
-=======
->>>>>>> b36279a22239f2e195c613ff5544c18a621e2c27
->>>>>>> 360f0ecdeaa1bda81757d0d62c110607cc837f64
+.full-w-5 .tarif-item{
+    margin: 10px;
+    background: #f0f0f0;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.full-w-5 .tarif-item p:first-child{
+    padding-top: 15px;
+}
+
+.full-w-5 .tarif-item p{
+    border-bottom: 1px solid #d8d8d8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.full-w-5 .row, .tarif-item{
+    margin-top: 0!important;
+}
+
+p.price{
+    color: #fff;
+    background: #616161;
+    margin-bottom: 0;
+    padding: 20px 5px;
+}
+
+.price>button{
+    margin-left: 35%;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pr{
+    position: relative;
+}
+
+.bg-red{
+    background: #eb4f4e!important; 
+}
+
+.bg-red button{
+    color:#eb4f4e!important;
+}
+
+.tarif-item>img{
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 15px)
+}
+
+span.price{
+    font-size: 3rem
+}
+
+.full-w-5 .tarifs>p{
+    color: #eb4f4e;
+    padding: 20px;
+}
+
+.full-w-6{
+    background: #eb4f4e;
+}
+
+.tweet{
+    padding: 50px 0;
+}
+
+.tweet-carousel{
+    padding: 0 8.5%;
+    text-align: center;
+
+}
