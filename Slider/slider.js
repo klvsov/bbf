@@ -3,13 +3,6 @@ window.onload = function(){
     let right = document.querySelector('.next');*/
     let imgs = document.querySelectorAll('.images img');
     let img = 0;
-
-    for(let i = 0; i < imgs.length-1; i++){
-        imgs[i].onclick = function(){
-            img.src = this.src; 
-        }
-    }
-
     function autoSlide(){  /*camel case*/
         imgs[i].className = '';
         if(i == imgs.length - 1){
