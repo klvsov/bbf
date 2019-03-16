@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Countertop Microwave</title>
-    <script src="switch.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
@@ -39,8 +38,10 @@
             <p class="price">$152.00</p>
             <p class="quantity">Quantity:</p>
             <div class="btn">
-                <input type="text" value="1">
-                <input type="submit" value="Add to cart">
+                <form action="form.php">
+                    <input type="number" placeholder="Count">
+                    <input type="submit" class="submit" value="Add to cart">
+                </form>
             </div>
             <div class="ifa">
                 <i class="far fa-heart"></i>
@@ -94,11 +95,24 @@
     </div>
 </div>
 <div id="modal_form"> 
-      <span id="modal_close">X</span> 
-      <form>
-          <input type="text" class="form-control" placeholder="123">
-      </form>
+    <span id="modal_close">&times;</span> 
+        <form>
+            <label for="name">Введіть своє ім'я</label><br>
+            <input type="text" class="form-control" id="name" placeholder="Your name"><br>
+            <label for="email">Введіть своє ім'я</label><br>
+            <input type="text" class="form-control" id="email" placeholder="Your email"><br>
+            <label for="pay">Спосіб оплати</label><br>
+            <label for="on">Онлайн</label>
+            <input type="radio" id="on" name="pay" value="online">
+            <label for="off">При отриманні</label>
+            <input type="radio" id="off" name="pay" value="offline">
+            <label for="sub">Підтверджую</label>
+            <input type="checkbox" id="sub">
+            <input type="button" value="Підтвердити замовлення">
+        </form>
 </div>
 <div id="overlay"></div>
+<script src="switch.js"></script>
+<script src="form.js"></script>
 </body>
 </html>

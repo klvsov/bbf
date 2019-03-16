@@ -1,7 +1,10 @@
+let p = document.querySelector('p');
+
+p.addEventListener('click', function() {
+	alert('event 1');
+})
 
 
-let mult = function(a, b){
-    return a / b; //return ''
-}
-
-console.log(mult(2, 0))
+p.addEventListener('click', function() {
+	alert('event 2');
+})
