@@ -13,6 +13,6 @@ window.onload = function(){
         images[i].className = 'showed';
     }
 
-    setInterval(play, 5000);
+    setInterval(play, 3000);
 
 }
