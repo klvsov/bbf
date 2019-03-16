@@ -1,6 +1,6 @@
 window.onload = function(){
-    /*let left = document.querySelector('.prev');
-    let right = document.querySelector('.next');*/
+    let left = document.querySelector('.prev');
+    let right = document.querySelector('.next');
     let imgs = document.querySelectorAll('.images img');
     let img = 0;
     function autoSlide(){  /*camel case*/
