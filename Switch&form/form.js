@@ -48,11 +48,13 @@ window.onload = function(){
         if(userName.value.length < 3){
             userName.classList.add('is-invalid');
             warning.textContent += " Уважно заповніть ім'я користувача!"
-        }
-
-        if(email.value.length < 3 || email.value.includes('@')){
-            email.classList.add('is-invalid');
-            warning.textContent += " Уважно заповніть едектронну пошту!"
-        }
+        } else {
+        	if(email.value.length < 3 || !email.value.includes('@')){
+            	email.classList.add('is-invalid');
+            	warning.textContent += " Уважно заповніть електронну пошту!"
+        	} else{
+        		console.log(userName.value+"!", "Ви замовили товар з ", pay.value, " оплатою. Електронна пошта для зв'язку -", email.value);
+        	}
+    	}
     })
 }
