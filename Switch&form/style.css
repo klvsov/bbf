@@ -154,7 +154,7 @@ i{
 
 #modal_form {
     width: 500px; 
-    height: 700px;
+    height: 600px;
     border-radius: 5px;
     background: #fff;
     position: fixed; 
@@ -164,15 +164,16 @@ i{
     margin-left: -250px;
     display: none;
     z-index: 5;
-    padding: 20px 10px;
+    padding: 20px 50px;
 }
 
 #modal_form #modal_close {
     width: 21px;
     height: 21px;
     position: absolute;
+    font-size: 2rem;
     top: 10px;
-    right: 10px;
+    right: 30px;
     cursor: pointer;
     display: block;
 }
@@ -202,4 +203,9 @@ i{
 #modal_form label{
     display: flex;
     align-items: center;
+}
+
+.red{
+    color: red;
+    font-size: 1rem;
 }

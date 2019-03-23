@@ -45,11 +45,11 @@ window.onload = function(){
             } 
         }
 
-        if(userName.value.length < 3){
+        if(userName.value.length < 2){
             userName.classList.add('is-invalid');
             warning.textContent += " Уважно заповніть ім'я користувача!"
         } else {
-        	if(email.value.length < 3 || !email.value.includes('@')){
+        	if(email.value.length < 2 || !email.value.includes('@')){
             	email.classList.add('is-invalid');
             	warning.textContent += " Уважно заповніть електронну пошту!"
         	} else{
